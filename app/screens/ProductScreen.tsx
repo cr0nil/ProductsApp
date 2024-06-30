@@ -73,6 +73,7 @@ const ProductScreen = (
         />
       </View>
       <FlatList
+        // ListHeaderComponent={} --- header with name, price, category, date added
         data={products}
         renderItem={({ item }) => (
           <ProductItem
